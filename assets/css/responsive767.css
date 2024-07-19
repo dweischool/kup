@@ -1,0 +1,557 @@
+.imageLogo2
+{
+	display: none;
+}
+.imageLogo1
+{
+	display: block;
+}
+
+.navbar_with_logo .navlogo_row .toggle
+{
+	width: 90px;
+}
+.navbar_with_logo .navlogo_row .logos a img
+{
+	height: auto;
+}
+.navbar_with_logo .navlogo_row .logos
+{
+	width: 85%;
+}
+
+/*==================*/
+.sliderWithTextButtons .sliderText {
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.sliderWithTextButtons .sliderText h6
+{
+	font-size: 25px;
+	margin-bottom: 8px;
+	display: none;
+}
+.sliderWithTextButtons .sliderText h3
+{
+	font-size: 40px;
+	line-height: 55px;
+	margin-right: 15px;
+}
+.sliderWithTextButtons .sliderText h5
+{
+	font-size: 40px;
+	line-height: 55px;
+}
+#carouselSlide .carousel-inner .carousel-item:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to bottom, rgba(0 0 0 / 0%), rgba(0 0 0 / 0%), rgba(0 0 0 / 0%), rgba(0 0 0 / 90%));
+}
+/*==================*/
+
+#carouselSlide .carousel-inner .carousel-item img
+{
+	height: 300px;
+}
+#carouselSlide .carousel-control-prev,
+#carouselSlide .carousel-control-next
+{
+	width: 40px;
+	height: 40px;
+}
+#carouselSlide .carousel-control-next
+{
+	top: 57%;
+}
+.sliderWithTextButtons .background-overlay2
+{
+	display: none;
+}
+#newsThoughtBelowSlider
+{
+	position: static;
+	background-color: var(--color1);
+	width: 100%;
+	border-radius: 0;
+}
+#newsThoughtBelowSlider .toughtRow
+{
+	grid-template-columns: 120px calc(100% - 120px);
+}
+#newsThoughtBelowSlider .toughtRow .values marquee span
+{
+	color: var(--white);
+}
+#newsThoughtBelowSlider .toughtRow .haeading
+{
+	font-size: 20px;
+	padding: 12px 15px;
+}
+body
+{
+	height: auto !important;
+}
+section.aboutSection
+{
+	margin-top: 20px;
+}
+section.aboutSection .container
+{
+	max-width: 95%;
+}
+.aboutSection .heading01
+{
+	margin-bottom: 10px;
+}
+.aboutSection .heading01 h6
+{
+	font-size: 25px;
+    line-height: 37px;
+}
+.aboutSection .heading01 h3
+{
+	font-size: 35px;
+    line-height: 43px;
+}
+.aboutSection .aboutContainer .homeAboutDesc .descArea
+{
+	width: 100%;
+}
+.aboutSection .aboutContainer .homeAboutDesc .descArea p
+{
+	font-size: 16px;
+	line-height: 24px;
+}
+.aboutSection .aboutContainer .homeAboutDesc .readmores a
+{
+	margin-top: 0;
+	width: 50%;
+	margin-left: 25%;
+	text-align: center;
+}
+.aboutSection .noticeBoardCol
+{
+	margin-top: 20px;
+}
+.aboutSection .noticeBoardCol .wrappers
+{
+	padding: 25px 20px;
+}
+.notice-board ul li .newsParentBox
+{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.notice-board ul li .newsParentBox .newsDescBox
+{
+	width:100% ;
+    padding-left: 0;
+}
+.notice-board ul li .newsParentBox .newsDescBox h4 a
+{
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+}
+.notice-board ul li .newsParentBox .newsDescBox p
+{
+	-webkit-line-clamp: 2;
+	font-size: 14px;
+	text-align: left;
+}
+.notice-board ul li .newsParentBox .newsDescBox .files
+{
+	flex-direction: row;
+}
+.notice-board ul li .newsParentBox .newsDescBox .files .file
+{
+	margin-right: 10px;
+}
+section.whyUsSection .whyUsContainer
+{
+	padding: 30px 30px;
+}
+section.whyUsSection .whyUsContainer .container
+{
+	max-width: 100%;
+}
+section.whyUsSection .whyUsContainer .heading02 h3
+{
+	font-size: 24px;
+}
+section.whyUsSection .whyIconicRow
+{
+	flex-direction: column;
+}
+section.whyUsSection .whyIconicRow .whyIconicColom .icon i
+{
+	background: #403a3a;
+}
+section.whyUsSection .whyIconicRow .whyIconicColom
+{
+	width: calc(100% - 10px);
+    margin: 0 5px 20px;
+    align-items: center;
+    justify-content: center;
+}
+section.whyUsSection .whyIconicRow .whyIconicColom .icon
+{
+	height: auto;
+}
+
+.activities-facilities-section .gallaryRows .gallaryColoms .galleryWrapper .image img
+{
+	height: 250px;
+}
+section.activities-facilities-section
+{
+	margin-top: 30px;
+}
+.activities-facilities-section .heading03 h4
+{
+	font-size: 30px;
+	line-height: 30px;
+}
+.activities-facilities-section .gallaryRows
+{
+	flex-direction: column;
+}
+.activities-facilities-section .gallaryRows .gallaryColoms
+{
+    width: calc(100% - 10px);
+	margin: 0 5px 15px;
+}
+.activities-facilities-section .gallaryRows .gallaryColoms .galleryWrapper .title
+{
+	font-size: 18px;
+	font-weight: 500;
+}
+.update-event-gallery-section .heading03 h4
+{
+	font-size: 35px;
+	line-height: 35px;
+}
+.videos-upcoming-events-section
+{
+	margin-top: 30px;
+}
+
+.videos-upcoming-events-section .rowvideo-calendar{
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 15px;
+}
+.videos-upcoming-events-section .rowvideo-calendar .videoscol .image a img
+{
+	height: 250px;
+}
+.videos-upcoming-events-section .rowvideo-calendar .videoscol .image a:after
+{
+	width: 50px;
+	height: 50px;
+}
+.update-event-gallery-section
+{
+	margin-top: 25px;
+}
+.gallery_events
+{
+	flex-direction: column;
+}
+.gallery_events .colomGallery
+{
+	width: calc(100% - 10px);
+    margin: 0 5px 20px;
+}
+.gallery_events .colomGallery .wrapper .otherDetail h4 a
+{
+	font-size: 18px;
+}
+footer .footer_container .container .locationsMap
+{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.copyrightText
+{
+	font-size: 14px;
+	padding: 12px 10px;
+	line-height: 20px;
+}
+
+.innerBanner .bannerImage
+{
+	height: 200px;
+}
+.about_building2
+{
+	float: none;
+	margin-bottom: 30px;
+	max-width: 80%;
+	margin-left: 10%;
+}
+.servicesPage
+{
+	margin: 20px 0;
+}
+.servicesPage .serviceBlockWrapper .servicesRow
+{
+	flex-direction: column;
+}
+.servicesPage .serviceBlockWrapper .servicesRow .image
+{
+	width: 100%;
+}
+.servicesPage .serviceBlockWrapper .servicesRow .image img
+{
+	min-height: 150px;
+}
+.servicesPage .serviceBlockWrapper .servicesRow .contents
+{
+	width: 100%;
+}
+.servicesPage .serviceBlockWrapper .servicesRow .contents .wrapper
+{
+	padding: 15px 10px;
+}
+.servicesPage .serviceBlockWrapper .servicesRow .contents .wrapper h5
+{
+	font-size: 22px;
+	margin-bottom: 5px;
+	line-height: 26px;
+}
+.servicesPage .serviceBlockWrapper .servicesRow .contents .wrapper p
+{
+	font-size: 17px;
+	line-height: 25px;
+}
+.servicesPage .serviceBlockWrapper .servicesRow .contents .wrapper ul li
+{
+	font-size: 16px;
+	margin-bottom: 13px;
+}
+footer .footer_container .container .footerBox ul li
+{
+	line-height: 22px;
+}
+footer .footer_container .container .footerBox ul li a
+{
+	font-size: 15px;
+}
+.teamSections
+{
+	padding: 20px 10px;
+}
+.teamSections .container
+{
+	max-width: 100%;
+}
+.my_team_row .colom_team
+{
+	width: calc(50% - 10px);
+    margin: 0 5px 12px;
+}
+body.gallery section.gallery .customRow#whyus
+{
+	flex-direction: column;
+}
+body.subgallery section.gallery .customRow#whyus
+{
+	flex-direction: row !important;
+}
+body.subgallery section.gallery .customRow#whyus .custom_colom
+{
+	width: calc(50% - 10px) !important;
+    margin: 0 5px 20px !important;
+}
+body.subgallery #whyus .custom_colom .why_us_boxes .image a img
+{
+	height: 220px;
+}
+body.ourStudents section.gallery .customRow#whyus .custom_colom
+{
+	width: calc(100% - 10px);
+    margin: 0 5px 20px;
+}
+body.ourStudents section.gallery .customRow#whyus .custom_colom .image a img
+{
+	height: 270px;
+}
+body.ourStudents section.gallery .customRow#whyus .custom_colom .why_us_boxes .groupName
+{
+	font-size: 16px;
+	font-weight: 600;
+	padding: 7px 15px;
+}
+
+body.gallery section.gallery .customRow#whyus .custom_colom
+{
+    width: calc(100% - 10px);
+	margin: 0 10px 20px;
+}
+
+body.videoGallery.gallery section.gallery .customRow#whyus
+{
+	flex-direction: row !important;
+}
+body.videoGallery.gallery section.gallery .customRow#whyus .custom_colom
+{
+    width: calc(50% - 10px);
+	margin: 0 5px 20px;
+}
+body.videoGallery.gallery .custom_colom .why_us_boxes .image a img
+{
+	height: 220px !important;
+}
+#whyus .custom_colom .why_us_boxes .image a img
+{
+	height: 270px;
+}
+#whyus .custom_colom .why_us_boxes .details h6
+{
+	-webkit-line-clamp: 2;
+	text-align: center;
+	font-size: 17px;
+}
+#whyus .custom_colom .why_us_boxes .details p
+{
+	flex-direction: column;
+}
+body.gallery section.gallery
+{
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+body.gallery.innerPage section.gallery .container
+{
+	max-width: 100%;
+}
+.displayFlexJustifyContentSpaceBetween
+{
+	/*flex-direction: column;*/
+}
+.displayFlexJustifyContentSpaceBetween .viewMore
+{
+	/*width: 90%;*/
+	/*margin-left: 5%;*/
+}
+.displayFlexJustifyContentSpaceBetween .viewMore button
+{
+	width: 100%;
+}
+
+.news_boxes_row
+{
+	flex-direction: column;
+}
+.news_boxes_row .news_box_colom
+{
+    width: calc(100% - 10px);
+	margin: 0 5px 20px;
+}
+.news_boxes_row .news_box_colom h5
+{
+	text-align: center;
+}
+.heading_choose_class_section form
+{
+	display: flex;
+	flex-direction: row;
+}
+.heading_choose_class_section form .input_box
+{
+	width: 90%;
+	margin-right: 5%;
+}
+.custom-tables .c-table-body
+{
+	padding:20px 10px;
+}
+.custom-tables .c-table-body
+{
+	flex-direction: column;
+}
+.custom-tables .c-table-body .table-data:nth-child(1)
+{
+	display: none;
+}
+.custom-tables .c-table-body .table-data:nth-child(2)
+{
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 400;
+}
+.career-listing-row
+{
+	flex-direction: column;
+}
+.career-listing-row .career-box
+{
+	width: calc(100% - 10px);
+    margin: 0 5px 15px;
+}
+section.contact.career-forms
+{
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+section.contact.career-forms .backgrond-texture-container
+{
+	max-width: 90%;
+}
+section.contact.career-forms .backgrond-texture-container
+{
+	padding: 20px 15px;
+}
+.contactMainSections
+{
+	padding-left: 0;
+}
+.contact_form_area .form_container
+{
+	padding: 20px 0px;
+}
+.footer_map_location .address_on_map
+{
+	position: static;
+	width: 100%;
+	box-shadow: none;
+}
+.footer_map_location 
+{
+	display: flex;
+	flex-direction: column;
+}
+.footer_map_location .map
+{
+	order: 2;
+	height: 250px;
+}
+.footer_map_location .map:before
+{
+	display: none;
+}
+.footer_map_location .address_on_map
+{
+	order: 1;
+}
+#carouselSlide .carousel-control-next-icon, 
+#carouselSlide .carousel-control-prev-icon
+{
+	width: 1.2em;
+	height: 1.2em;
+}
+

@@ -1,0 +1,23 @@
+
+.imageLogo1
+{
+	display: none;
+}
+.navbar_with_logo .navlogo_row .myNaviGation
+{
+	display: none;
+}
+.navbar_with_logo .navlogo_row .toggle
+{
+	width: 70px;
+	text-align: center;
+}
+.navbar_with_logo .navlogo_row .toggle img
+{
+	width: 55px;
+}
+.navbar_with_logo .navlogo_row .toggle .menuText
+{
+	font-size: 16px;
+}
+
