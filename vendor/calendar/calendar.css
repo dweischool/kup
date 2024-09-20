@@ -1,0 +1,183 @@
+
+
+/*==============calender===============*/
+
+#mycalendars
+{
+    width: 90%;
+    margin-left: 5%;
+}
+
+#ical {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 3px; }
+
+#ical .cal_head {
+  background:var(--color1);
+  color: #fff;
+  padding: 10px 10px;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  position: relative;
+  border-radius: 2px 2px 0 0;
+  font-weight:700;
+ }
+
+.icaltable {
+  border-collapse: separate;
+  border-width: 0px 0px 1px 1px;
+  font-size: 20px;
+  width: 100%;
+  height: auto;
+  background: #f8f8f8; }
+
+.icaltable td, .icaltable th {
+  width: 14.28%;
+  text-align: center;
+  vertical-align: middle;
+  background:  repeat scroll 0% 0% #F8F8F8;
+  color: #444;
+  position: relative;
+  font-size: 15px;
+  height: 24px;
+  padding: 10px 0px;
+  border: 1px solid #ddd;
+	  background-color:var(--white);
+  font-family:var(--roboto2) 
+  }
+
+  .icaltable td
+  {
+      font-weight:500;
+      font-size: 16px;
+	    background-color:var(--white);
+  }
+
+#ical .events li span.title,
+#ical .events li span.desc {
+  display: none; }
+
+#ical .events li span.event_desc,
+#ical .events li span.event1 {
+  color: #000; }
+
+#ical .events li span.event1 {
+  display: block; }
+
+.icaltable th {
+    height: 30px;
+    font-size: 16px;
+    font-family: var(--poppins);
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.icaltable td:hover, .icaltable th:hover {
+  background-position: 0px -81px;
+  color: #222; }
+
+.icaltable td.date_has_event {
+  background-color:var(--color2);
+  color: white; }
+
+.icaltable td.date_has_event:hover {
+  background-color: var(--color2); }
+
+.icaltable td.today {
+  background-color: var(--color1);
+  /*background-image: url(../img/pattern2.png);*/
+  color: white; }
+  
+ .icaltable td.today:hover{
+	  background-color: var(--color1) !important; 
+ } 
+
+.icaltable td.today:hover {
+  color: #fff; 
+}
+
+.events {
+  position: relative; }
+
+.events ul {
+  right: 0px !important;
+  bottom: 30px !important; }
+
+.events ul {
+  text-align: left;
+  position: absolute;
+  display: none;
+  z-index: 1000;
+  padding: 5px;
+  background: #E7ECF2 url(vendor/img/) no-repeat;
+  color: white;
+  border: 1px solid white;
+  font-size: 15px;
+  width: 200px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -border-radius: 3px;
+  list-style: none;
+  color: #444444;
+  -webkit-box-shadow: 0px 8px 8px #333; }
+
+.events li {
+  padding-bottom: 5px; }
+
+.events li span {
+  float: left;
+  font-size: 14px;
+  text-align: justify;
+  color: #555;
+  font-family:var(--roboto3) 
+  margin-right: 5px; }
+
+.events li span.title {
+    color: #222;
+  }
+
+#icalprev {
+  position: absolute;
+  left: 10px;
+  cursor: pointer; }
+
+#icalnext {
+  position: absolute;
+  right: 10px;
+  cursor: pointer; }
+
+#currentmonth {
+  padding: 0;
+  text-align: center;
+  font-family: var(--poppins);
+  font-size: 1.1em;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+#currentyear {
+  padding: 0;
+  text-align: center;
+  font-family: var(--poppins);
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+#icalprev, #icalnext {
+  top: 50%;
+  transform: translateY(-50%); }
+
